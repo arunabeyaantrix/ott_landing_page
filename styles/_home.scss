@@ -487,9 +487,10 @@ button.diagnal-btn:hover {
     .content_holder {
         position: relative;
         width: 225px;
-        background-repeat:no-repeat ;
+        background-repeat:no-repeat !important;
         background-size: cover;
         height: 341px;
+        cursor: pointer;
         @media (max-width:576px){
             width: 175px;
             height: 285px;
