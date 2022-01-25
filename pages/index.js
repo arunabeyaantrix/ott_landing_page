@@ -8,7 +8,8 @@ const Footer = dynamic(() => import('../components/shared/Footer'));
 const Header = dynamic(() => import('../components/shared/Head'));
 const MainBanner = dynamic(() => import('../components/home/MainBanner'));
 const Features = dynamic(() => import('../components/home/Features'));
-const FAQ = dynamic(() => import('../components/home/FAQ'));
+// const FAQ = dynamic(() => import('../components/home/FAQ'));
+import FAQ from '../components/home/Faq'
 const Devices = dynamic(() => import('../components/home/Devices'));
 const Channels = dynamic(() => import('../components/home/Channels'));
 const Contents = dynamic(() => import('../components/home/Contents'));
