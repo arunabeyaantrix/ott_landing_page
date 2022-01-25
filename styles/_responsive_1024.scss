@@ -1,0 +1,15 @@
+@media  (min-width:"1024px") and (max-width:"1400px"){
+    .diagnal_devices{
+        padding-top: 125px;
+        padding-bottom: 125px;
+        height: unset;
+        .devices-subtitle{
+            width: unset;
+            max-width: 424px;
+        }
+    }
+    .diagnal-channels{
+        height: unset;
+        padding-bottom: 73.91px;
+    }
+}
