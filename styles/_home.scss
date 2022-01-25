@@ -589,8 +589,13 @@ button.diagnal-btn:hover {
         a {
             color: #fff;
             font-size: 16px;
-            cursor: pointer;
+           
+            span:hover{
+                cursor: pointer;
+                text-decoration: underline !important;
+            }
         }
+       
     }
     .grid_two_container, .grid_one_container{
         width: 40%;
@@ -616,12 +621,14 @@ button.diagnal-btn:hover {
         }
     }
     .icon_container_i{
+        cursor: pointer;
         @media (max-width:576px){
             position: relative;
             left: 55%;
         }
     }
     .icon_container_f{
+        cursor: pointer;
         @media (max-width:576px){
             position: relative;
             left: 110%;
@@ -640,6 +647,12 @@ button.diagnal-btn:hover {
             font-size: 22px;
         }
 
+    }
+    .playstore{
+        cursor: pointer;
+    }
+    .appstore{
+        cursor: pointer;
     }
     .water_mark{
         float: right;
