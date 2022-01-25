@@ -8,7 +8,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@ant-design/icons": "^4.7.0",
     "@fortawesome/fontawesome-free": "^5.15.4",
     "@zeit/next-css": "^1.0.1",
     "bootstrap": "^5.1.3",
