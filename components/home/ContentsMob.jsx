@@ -6,11 +6,14 @@ const options = {
     loop: true,
     nav: false,
     autoplay: true,
-    margin: 150,
+    margin: 120,
     dots: false,
     responsive: {
         0: {
-            items: 3,
+            items: 2,
+        },
+        450:{
+            items:3
         },
         768: {
             items: 4,

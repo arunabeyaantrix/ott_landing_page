@@ -478,6 +478,15 @@ button.diagnal-btn:hover {
             padding-right: 0px;
         }
     }
+    @media (max-width:400px){
+        height: unset;
+        padding-bottom: 78px;
+        .container{
+            // width: unset !important;
+            // padding-left: 6%;
+            // padding-right: 0px;
+        }
+    }
     .content-grid {
         display: grid;
         grid-template-columns: auto auto auto auto;
@@ -494,12 +503,13 @@ button.diagnal-btn:hover {
         background-size: cover;
         height: 341px;
         cursor: pointer;
-        @media (max-width:576px){
+        @media  (max-width:576px){
             width: 175px;
             height: 285px;
             border-radius: 5px;
 
         }
+       
     }
     .faded_content {
         width: 225px;
