@@ -343,6 +343,9 @@ button.diagnal-btn:hover {
         font-size: 20px;
         line-height: 30px;
         width: 424px;
+        @media (max-width:576px){
+            width: unset;
+        }
     }
     .devices-list {
         font-size: 20px;
